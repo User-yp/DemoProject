@@ -21,6 +21,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchService.Infrastructur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchService.WebAPI", "SearchService.WebAPI\SearchService.WebAPI.csproj", "{31F072AC-14ED-4E3F-9C6D-01E91768754F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileService.Domain", "FileDomain\FileService.Domain.csproj", "{EED87511-9476-47CB-B009-D58E4EEC71AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileService.Infrastructure", "FileService.Infrastructure\FileService.Infrastructure.csproj", "{76EEE209-E976-4421-A6ED-5B820DF18BAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileService.WebAPI", "FileService.WebAPI\FileService.WebAPI.csproj", "{0A4C2950-FBED-42A9-B115-40C955FC625F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +69,18 @@ Global
 		{31F072AC-14ED-4E3F-9C6D-01E91768754F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31F072AC-14ED-4E3F-9C6D-01E91768754F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31F072AC-14ED-4E3F-9C6D-01E91768754F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED87511-9476-47CB-B009-D58E4EEC71AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED87511-9476-47CB-B009-D58E4EEC71AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED87511-9476-47CB-B009-D58E4EEC71AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED87511-9476-47CB-B009-D58E4EEC71AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EEE209-E976-4421-A6ED-5B820DF18BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EEE209-E976-4421-A6ED-5B820DF18BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EEE209-E976-4421-A6ED-5B820DF18BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EEE209-E976-4421-A6ED-5B820DF18BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4C2950-FBED-42A9-B115-40C955FC625F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4C2950-FBED-42A9-B115-40C955FC625F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4C2950-FBED-42A9-B115-40C955FC625F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4C2950-FBED-42A9-B115-40C955FC625F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
